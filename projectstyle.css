@@ -141,6 +141,7 @@ section:nth-child(2n + 1) {
   height: auto;
   width: 100%;
   position: relative;
+  padding-bottom: 5px;
 }
 
 #my-image {
@@ -186,27 +187,26 @@ section:nth-child(2n + 1) {
   justify-content: space-evenly;
 }
 
-.skill-progress {
-  width: 13rem;
-  height: 1.45rem;
-  background-color: lightgrey;
-  border-radius: 1rem;
-  box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
-  margin: 25px;
-  overflow: hidden;
+.container {
+  width: 100%;
+  background-color: #ddd;
 }
 
-.skill-progress > div {
-  border-radius: 20px 0px 0px 20px;
-  box-shadow: 1px 1px 5px 2px #989882;
-}
-
-.skill-name span {
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: white;
-  font-size: 1.2rem;
-  margin-left: 15px;
-  vertical-align: middle;
 }
+
+.cpp {width: 50%; background-color: #04AA6D;}
+.html {width: 95%; background-color: #2196F3;}
+.css {width: 80%; background-color: #f44336;}
+.boot {width: 80%; background-color: hsl(103, 97%, 66%);}
+.java {width: 50%; background-color: hwb(62 44% 10%);}
+.py {width: 95%; background-color: hsl(296, 77%, 75%);}
+.ui {width: 80%; background-color: hwb(204 66% 5%);}
+.gd {width: 80%; background-color: #ddb493;}
 
 /* Common Margin Classes */
 .mb75px {
